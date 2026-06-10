@@ -2,7 +2,7 @@
 
 A simulation-only SystemVerilog accelerator that computes a signed 16-element dot product through a small memory-mapped I/O interface. The verification environment includes both a SystemVerilog testbench and a C++/Verilator harness that act like firmware: write input vectors into MMIO registers, write `CTRL.START`, poll `STATUS.DONE`, read the 64-bit result, and check it against a software reference model.
 
-![Waveform preview](screenshots/waveform_basic_test.png)
+![Waveform preview](screenshots/waveform_mmio_run.png)
 
 The waveform preview shows the all-ones test case: an MMIO start pulse, the 16-cycle RUN window, accumulator/index progression, and final result latch.
 
@@ -122,7 +122,7 @@ mmio-dot-product-accelerator/
     .gitkeep
   screenshots/
     .gitkeep
-    waveform_basic_test.png
+    waveform_mmio_run.png
 ```
 
 ## Documentation

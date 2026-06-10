@@ -121,7 +121,7 @@ Confirm:
 - `STATUS.DONE` asserts after computation.
 - `RESULT_LO` and `RESULT_HI` expose the final signed 64-bit result.
 
-The included `screenshots/waveform_basic_test.png` focuses on the all-ones run, where the accumulator reaches 16 and the result latches to 16.
+The included `screenshots/waveform_mmio_run.png` focuses on the all-ones run, where the accumulator reaches 16 and the result latches to 16.
 
 ## Limitations
 

@@ -14,7 +14,7 @@ make wave
 make wave-cpp
 ```
 
-The included preview image, `screenshots/waveform_basic_test.png`, is generated from the VCD and focuses on the `all_ones` case. It shows the START write, the RUN phase, 16 MAC cycles, DONE, and the result value of 16.
+The included preview image, `screenshots/waveform_mmio_run.png`, is generated from the VCD and focuses on the `all_ones` case. It shows the START write, the RUN phase, 16 MAC cycles, DONE, and the result value of 16.
 
 ## Signals To Inspect
 
