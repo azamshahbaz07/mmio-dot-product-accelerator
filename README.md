@@ -2,8 +2,6 @@
 
 A simulation-only SystemVerilog accelerator that computes a signed 16-element dot product through a small memory-mapped I/O interface. The verification environment includes both a SystemVerilog testbench and a C++/Verilator harness that act like firmware: write input vectors into MMIO registers, write `CTRL.START`, poll `STATUS.DONE`, read the 64-bit result, and check it against a software reference model.
 
-This project is meant to demonstrate hardware/software codesign without requiring an FPGA board.
-
 ![Waveform preview](screenshots/waveform_basic_test.png)
 
 ## Architecture
