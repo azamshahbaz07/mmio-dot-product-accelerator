@@ -4,6 +4,8 @@ A simulation-only SystemVerilog accelerator that computes a signed 16-element do
 
 ![Waveform preview](screenshots/waveform_basic_test.png)
 
+The waveform preview shows the all-ones test case: an MMIO start pulse, the 16-cycle RUN window, accumulator/index progression, and final result latch.
+
 ## Architecture
 
 ```
