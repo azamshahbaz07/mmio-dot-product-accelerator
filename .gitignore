@@ -1,0 +1,17 @@
+.DS_Store
+
+# Icarus Verilog build products
+build/
+*.vvp
+
+# Verilator default output directory
+obj_dir/
+
+# Generated simulation waveforms
+waves/*.vcd
+*.fst
+*.lxt
+
+# Local logs and scratch output
+*.log
+*.tmp
